@@ -3,34 +3,30 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This repository documents the setup and configuration of osTicket, an open‑source help desk system, deployed on an Azure Virtual Machine.
+It focuses on installation, environment setup, and system configuration.<br />
 
 
-<h2>Environments and Technologies Used</h2>
+<h2>🖥️ Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- Windows 10 (4 vCPUs)
+- osTicket v1.15.8
 
-<h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+<h2>🎯 Purpose</h2>
 
-<h2>List of Prerequisites</h2>
-
-- Install and enable ISS (internet information services) on windows with CGI. This action enables the installation of the web server. 😊
-- From the osticket installation folder we will install, PHP manager for ISS, rewrite module, visual c++ redistributable, and My SQL 5.5.62 🖥️
-
-# Installation 🚀 
-
-- Configure ISS 
-- Installing osTicket
-- Setting up configurations on osTicket
-- Creating the database and completing osTicket!👍
+Gain hands‑on experience with:
+- Azure VM deployment
+- IIS and PHP configuration
+- Database setup and integration
+- osTicket installation and initial configuration
 
 <h2>Installation Steps</h2>
 
-Item 1:
+Step 1: Create Azure VM
 <p>
 <img src="https://i.imgur.com/ZgRFUve.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
