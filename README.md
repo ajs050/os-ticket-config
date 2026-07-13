@@ -38,7 +38,7 @@ Step 1: Create Azure VM
 
 Step 2: Install Requirements
 
-We will first enable IIS with CGI through the Windows Control Panel. Using the ZIP folder available on OS's website, we will install the following items. 
+We will first enable IIS with CGI through the Windows Control Panel. Then, after extracting the ZIP folder available on the OS's website, we will install the following items. 
 
 - PHP Manager
 - Rewrite Module
@@ -47,14 +47,17 @@ We will first enable IIS with CGI through the Windows Control Panel. Using the Z
 
 Configure PHP and register it in IIS
 
-<img src="https://i.imgur.com/fy1PTju.png" height="60%" width="60%" alt=/>
-<img src="https://i.imgur.com/LK1agin.png" height="60%" width="60%" alt=/>
-<img src="https://imgur.com/QF8clgs" height="60%" width="60%" alt=/>
-<img src="https://imgur.com/Y662nUV" height="60%" width="60%" alt=/>
-<img src="https://i.imgur.com/QQp3lL0.png" height="60%" width="60%" alt=/>
-<img src="https://i.imgur.com/jaDUQbX.png" height="80%" width="60%" alt=/>  
-</p>
-<p>
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/0dcd30df-363b-4fe1-bd68-96d336468de6" />
+
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/3f8068bf-c86e-4c7c-8f9a-8af9d261fc7f" />
+
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/e412b0a8-120b-4528-bc7b-f53d3df611a2" />
+
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/c6742f4e-7dfe-41df-8846-9e02cde66fd1" />
+
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/159162a1-c57d-4e98-9685-af234a3ba754" />
+
+
 From the osTicket-Installation-Files folder:
 
   Install PHP Manager for IIS
