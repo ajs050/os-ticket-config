@@ -95,58 +95,43 @@ After we unzip osTicket‑v1.15.8.zip from the osTicket‑Installation‑Fil
 - Reload IIS (Stop and Start the server).
 - Browse to http://localhost/osTicket to confirm the installation page loads.
   
-<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/660e107b-d915-47c0-925d-190586a64c0e" />
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/026325db-c27e-41e7-8195-bfe763b12ef2" />
 
-<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/b2f574f3-94d5-4f19-87cb-c0abe1499ac7" />
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/1a8c284c-aedb-4084-baae-542f95f67ba6" />
 
-<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/9ac0f390-aac7-4eeb-8496-b2ea035350c2" />
-
-<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/03bf5b9d-2900-43bf-9650-389d7f70b402" />
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/90d603e4-e6ca-4a70-b804-cba4218eaff3" />
 
 
-To install osTicket we must now extract osTicket-v1.15.8.zip.
-Copy the upload folder to C:\inetpub\wwwroot.
-Rename the upload folder to osTicket. 🚀
-Restart IIS again.
-</p>
+<img width="1708" height="1070" alt="image" src="https://github.com/user-attachments/assets/429d6f9d-8c1e-4b06-b05c-2d776cd38786" />
+
+
+
+
 <br />
-<p>
-<img src="https://i.imgur.com/XunS4np.png"60%" width="60%" alt=/>  
-<img src="https://i.imgur.com/pWkUiLR.png" height="60%" width="60%" alt=/>
+<br />
 
-</p>
-<p>
 
-We will now set Up Configurations for mySQL and osTicket
+Step 5: Post‑Installation Setup
 
-Rename the sample configuration file:
-From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
-To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
-Update permissions for ost-config.php:
-Disable inheritance, remove all existing permissions
-<p>
+After we unzip osTicket‑v1.15.8.zip from the osTicket‑Installation‑Files folder, we will: 
 
-  Item 5: 
+- Copy the upload folder into C:\inetpub\wwwroot.
+- Rename upload to osTicket.
+- Reload IIS (Stop and Start the server).
+- Browse to http://localhost/osTicket to confirm the installation page loads.
+  
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/026325db-c27e-41e7-8195-bfe763b12ef2" />
 
-<img src="https://i.imgur.com/N5PdxII.png" height="60%" width="60%" alt=/>
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/1a8c284c-aedb-4084-baae-542f95f67ba6" />
 
-</p>
-<p>
-Complete the osTicket Setup in the Browser.
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/90d603e4-e6ca-4a70-b804-cba4218eaff3" />
 
-Open the osTicket setup page in your browser.
-Provide the following: Helpdesk name, default email for customer queries.👌
 
-Item 6:
+<img width="1708" height="1070" alt="image" src="https://github.com/user-attachments/assets/429d6f9d-8c1e-4b06-b05c-2d776cd38786" />
 
-<img src="https://i.imgur.com/ZyRfSaw.png" height="60%" width="60%" alt=/>
 
-Install and open HeidiSQL.
-Create a new session (Username: root, Password: root) 
-Connect and create a new database named osTicket.
-Return to the browser setup and input:
-Database Name: osTicket
+
 
 You are now able to access the admin panel! 😊🎊
 osTicket system complete! 🚀
