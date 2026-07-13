@@ -33,13 +33,20 @@ Step 1: Create Azure VM
 <img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/5b382ca4-a27e-4a89-a700-25996200e2d3" />
 
 
-Install and enable IIS (Internet Information Services) on Windows.
-Go to World Wide Web Services, Application Development Features, and enable the CGI feature.
-
-</p>
 <br />
-Item 2:
-<p>
+<br />
+
+Step 2: Install Requirements
+
+We will first enable IIS with CGI through the Windows Control Panel. Using the ZIP folder available on OS's website, we will install the following items. 
+
+- PHP Manager
+- Rewrite Module
+- VC Redistributable
+- MySQL
+
+Configure PHP and register it in IIS
+
 <img src="https://i.imgur.com/fy1PTju.png" height="60%" width="60%" alt=/>
 <img src="https://i.imgur.com/LK1agin.png" height="60%" width="60%" alt=/>
 <img src="https://imgur.com/QF8clgs" height="60%" width="60%" alt=/>
