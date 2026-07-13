@@ -12,7 +12,7 @@ It focuses on installation, environment setup, and system configuration.<br />
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
-- Windows 10 (4 vCPUs)
+- Windows 11 (4 vCPUs)
 - osTicket v1.15.8
 
 
@@ -27,8 +27,10 @@ Gain hands‑on experience with:
 <h2>Installation Steps</h2>
 
 Step 1: Create Azure VM
+
+Creating a Windows Virtual Machine through an Azure Subscription. 
 - Name: osticket-vm
-- OS: Windows 10
+- OS: Windows 11
 - Credentials: labuser / osTicketPassword1! (for lab use only)
 <img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/5b382ca4-a27e-4a89-a700-25996200e2d3" />
 
@@ -45,8 +47,6 @@ We will first enable IIS with CGI through the Windows Control Panel. Then, after
 - VC Redistributable
 - MySQL
 
-Configure PHP and register it in IIS
-
 <img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/0dcd30df-363b-4fe1-bd68-96d336468de6" />
 
 <img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/3f8068bf-c86e-4c7c-8f9a-8af9d261fc7f" />
@@ -57,37 +57,52 @@ Configure PHP and register it in IIS
 
 <img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/159162a1-c57d-4e98-9685-af234a3ba754" />
 
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/138c1e87-586b-4cd8-9f77-9aa081a6c249" />
 
-From the osTicket-Installation-Files folder:
-
-  Install PHP Manager for IIS
-Install the Rewrite Module 
-Create the directory: C:\PHP.
-Extract the PHP 7.3.8 into C:\PHP.
-Install the Visual C++ Redistributable
-Install MySQL 5.5.62 with: Typical Setup, then standard configuration, then apply username and password. 🧑‍💻
-
-</p>
 <br />
-Item 3:
-<p>
-<img src="https://i.imgur.com/Y662nUV.png" height="60%" width="60%" alt=/>  
+<br />
+
+
+Step 3: Configure PHP and IIS
+
+
+We will create a PHP Folder (C:\PHP) in Windows (C:) and unzip the PHP 7.3.8 files into this folder. Afterwards: 
+
+- Open IIS as Administrator.
+- Register PHP in IIS via PHP Manager → C:\PHP\php‑cgi.exe.
+- Reload IIS (Stop and Start the server).
   
-</p>
-<p>
-We will open IIS as Administrator.
-Register PHP in IIS (PHP Manager → Register New PHP Version → C:\PHP\php-cgi.exe).
-Restart IIS (Stop and Start the server).
-</p>
-<br />
-Item 4:
-<p>
-<img src="https://i.imgur.com/bO1OGqH.png" height="60%" width="60%" alt=/>  
-<img src="https://i.imgur.com/63te02v.png" height="60%" width="60%" alt=/>
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/660e107b-d915-47c0-925d-190586a64c0e" />
 
-</p>
-<p>
-From the osTicket-Installation-Files folder:
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/b2f574f3-94d5-4f19-87cb-c0abe1499ac7" />
+
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/9ac0f390-aac7-4eeb-8496-b2ea035350c2" />
+
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/03bf5b9d-2900-43bf-9650-389d7f70b402" />
+
+  
+<br />
+<br />
+
+
+Step 4: Install osTicket
+
+
+After we unzip osTicket‑v1.15.8.zip from the osTicket‑Installation‑Files folder, we will: 
+
+- Copy the upload folder into C:\inetpub\wwwroot.
+- Rename upload to osTicket.
+- Reload IIS (Stop and Start the server).
+- Browse to http://localhost/osTicket to confirm the installation page loads.
+  
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/660e107b-d915-47c0-925d-190586a64c0e" />
+
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/b2f574f3-94d5-4f19-87cb-c0abe1499ac7" />
+
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/9ac0f390-aac7-4eeb-8496-b2ea035350c2" />
+
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/03bf5b9d-2900-43bf-9650-389d7f70b402" />
+
 
 To install osTicket we must now extract osTicket-v1.15.8.zip.
 Copy the upload folder to C:\inetpub\wwwroot.
