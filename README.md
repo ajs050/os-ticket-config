@@ -27,10 +27,11 @@ Gain hands‑on experience with:
 <h2>Installation Steps</h2>
 
 Step 1: Create Azure VM
-<p>
-<img src="https://i.imgur.com/ZgRFUve.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+- Name: osticket-vm
+- OS: Windows 10
+- Credentials: labuser / osTicketPassword1! (for lab use only)
+<img width="1708" height="880" alt="image" src="https://github.com/user-attachments/assets/5b382ca4-a27e-4a89-a700-25996200e2d3" />
+
 
 Install and enable IIS (Internet Information Services) on Windows.
 Go to World Wide Web Services, Application Development Features, and enable the CGI feature.
