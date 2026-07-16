@@ -148,3 +148,6 @@ We're not finished just yet! Just a few last configurations left.
 After this, osTicket will be installed and accessed at last for both admins and users. 🎉 🎊
 
 <img width="1708" height="935" alt="image" src="https://github.com/user-attachments/assets/edc8ce54-bd18-482b-af29-2617844152ea" />
+
+# Thank you for reaching the end! Here is part 2!
+- [osTicket — Ticket Lifecycle Examples](https://github.com/ajs050/os-ticket-lifecycle)
